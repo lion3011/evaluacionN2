@@ -1,0 +1,142 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: black;
+    padding: 10px;
+}
+
+.barra-superior{
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+.izquierda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px;
+    padding: 4px;
+}
+.imglogo{
+    height: 5rem;
+    width: 5rem;
+
+}
+.barra-superior nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 25rem;
+    height: 2rem;
+}
+.buscador{
+    display: flex;
+    border: 1px solid wheat;
+    align-items: center;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: #3c3c3e;
+}
+.otros{
+    display: flex;
+}
+
+.derecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 15rem;
+    height: 3rem;
+}
+#Sup-der{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    padding: 2px;
+    border: 1px solid whitesmoke;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.contenedor{
+    display: flex;
+    align-items: stretch;
+    height: 49rem;
+    padding: 5px;
+    margin: 5px;
+    flex-grow: 1;
+    background-color: black;
+    
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    width: 10rem;
+}
+.fondo{
+    background-color: #3c3c3e;
+    border-radius: 15px;
+}
+
+.contenido{
+    border: 2px solid white;
+    width: 100rem;
+    flex-grow: 1;
+}
+.superior{
+
+}
+.medio{
+
+}
+.inferior{
+
+}
+
+.extra{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #3c3c3e;
+    width: 30rem;
+}
+.salida{
+    display: flex;
+    justify-content: end;
+}
+.close{
+    background-color: black;
+    border-radius: 15px;
+}
+.preguntas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 4rem;
+    margin: 10px;
+}
